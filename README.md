@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/project_cover.png" width="900">
+</p>
+
+
 # ⚽ Football Over 2.5 Goals Prediction
 
 ## 📌 Project Description
