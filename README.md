@@ -96,6 +96,17 @@ This allows fast inference without retraining.
 
 ## ▶️ How to Run the Project
 
+1. Clone this repository:
+bash
+git clone https://github.com/pipesito1/football-over25-prediction.git
+2. Install dependencies:
+bash
+pip install pandas numpy scikit-learn
+3. Open the notebook:
+bash
+jupyter notebook football_over25_prediction.ipynb
+4. Run all cells to train and test the model.
+
 ### 1️⃣ Clone Repository
 
 ```bash
@@ -105,41 +116,31 @@ pip install -r requirements.txt
 pip install pandas numpy scikit-learn matplotlib joblib
 jupyter notebook notebooks/football_over25_prediction.ipynb
 
+```
+---
+
+## 🎯 Project Goals
+
+* Analyze football match data
+* Build a predictive ML model
+* Apply data preprocessing and feature engineering
+* Generate actionable predictions
+* Create a professional data science portfolio project
 
 ---
 
-# 🎯 POR QUÉ ESTA VERSIÓN ES MEJOR
+## 👨‍💻 Author
 
-Con este README ahora muestras:
-
-✅ Pensamiento de negocio  
-✅ Proceso completo  
-✅ Métricas  
-✅ Estructura real  
-✅ Perfil profesional  
-
-Esto es lo que ven los reclutadores.
+**Felipe Sepúlveda**
+Data Analyst | Data Scientist
 
 ---
 
-# 🔜 SIGUIENTE PASO (IMPORTANTE)
+## 📬 Contact
 
-Ahora que tu README queda pro, lo que sigue es:
-
-👉 Optimizar tu NOTEBOOK para entrevistas.
-
-En el próximo paso hacemos:
-
-✔ Markdown bonito  
-✔ Explicaciones  
-✔ Celdas limpias  
-✔ Storytelling técnico
+If you have questions or suggestions, feel free to reach out via GitHub.
 
 ---
 
-Respóndeme:
-
-👉 **“Vamos con el notebook”**
-
-Y lo dejamos nivel empresa 💼🔥
+⭐ If you like this project, consider giving it a star!
 
