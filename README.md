@@ -2,65 +2,78 @@
   <img src="images/project_cover.png" width="900">
 </p>
 
-# ⚽ Football Over 2.5 Goals Prediction
+# ⚽ Football Over 2.5 Goals Prediction App
+
+## 🔗 Live Demo
+👉 (https://football-over25-prediction-f5bwhjenxgqzdhhappmqxky.streamlit.app/)
+
+
+
+---
 
 ## 📌 Project Overview
 
-This project develops a machine learning model to predict whether a football match will end with **over 2.5 total goals** using historical match data and league statistics.
+This project is an end-to-end machine learning application that predicts whether a football match will end with **Over 2.5 Goals** using live and historical match data.
 
-The goal is to support sports analytics, betting strategies, and performance analysis through data-driven predictions.
-
----
-
-## 🚀 Business Problem
-
-Predicting goal distribution in football matches is crucial for:
-
-- Sports analytics
-- Betting risk management
-- Team performance evaluation
-- Fan engagement platforms
-
-This project transforms raw football data into actionable insights using machine learning.
+It includes data ingestion from APIs, feature engineering, model training, and deployment as an interactive web app.
 
 ---
 
-## 📊 Dataset
+## 💼 Business Use Case
 
-The project uses multiple datasets:
+Accurate goal prediction is valuable for:
 
-| File | Description |
-|------|-------------|
-| `historico_partidos.csv` | Historical match results |
-| `leagues.csv` | League information |
-| `seasons.csv` | Season metadata |
-| `partidos_en_vivo.xlsx` | Live match data |
+- Sports analytics teams  
+- Betting risk management  
+- Performance evaluation  
+- Fan engagement platforms  
 
-These datasets contain match outcomes, goals, leagues, and seasonal context.
+This project transforms raw football data into actionable insights through machine learning.
+
+---
+
+## 📊 Data Sources
+
+| Source | Description |
+|--------|-------------|
+| API-Football | Live and historical fixtures |
+| historico_partidos.csv | Processed historical matches |
+| leagues.csv | League information |
+| seasons.csv | Season metadata |
+
+Data was collected, cleaned, validated, and standardized.
 
 ---
 
 ## 🧠 Methodology
 
-The workflow follows a complete data science pipeline:
+This project follows a complete data science workflow:
 
-1️⃣ Data collection and validation  
-2️⃣ Data cleaning and preprocessing  
+1️⃣ API data ingestion  
+2️⃣ Data cleaning & validation  
 3️⃣ Feature engineering  
 4️⃣ Model training  
-5️⃣ Model evaluation  
-6️⃣ Model deployment
+5️⃣ Cross-validation  
+6️⃣ Performance evaluation  
+7️⃣ Deployment with Streamlit  
 
 ---
 
 ## 🤖 Machine Learning Model
 
-A supervised classification model was trained to predict:
+A Random Forest classifier was trained to predict:
 
 - **1** → Over 2.5 goals  
 - **0** → Under 2.5 goals  
 
-### Model Performance
+### Features Used
+
+- Match minute  
+- Total goals  
+- Minute ratio  
+- Goals per minute ratio  
+
+### Performance
 
 | Metric | Value |
 |--------|--------|
@@ -69,23 +82,35 @@ A supervised classification model was trained to predict:
 | Recall | XX% |
 | F1-score | XX% |
 
-> Replace XX% with your real results.
+*(Replace XX% with real results)*
 
-The trained model is stored as:
-
-This allows fast inference without retraining.
+The trained model is saved using `joblib` for fast inference.
 
 ---
 
-## 🛠️ Technologies Used
+## 🖥️ Web Application
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook / Google Colab
-- GitHub
+The Streamlit app allows users to:
+
+✅ Input live match data  
+✅ View real-time predictions  
+✅ See probability scores  
+✅ Explore live fixtures  
+
+The app is deployed and publicly accessible.
+
+---
+
+## 🛠️ Technologies
+
+- Python  
+- Pandas / NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- API-Football  
+- Streamlit  
+- Joblib  
+- GitHub  
 
 ---
 
@@ -123,9 +148,11 @@ jupyter notebook notebooks/football_over25_prediction.ipynb
 
 * Analyze football match data
 * Build a predictive ML model
+* Integrate real-time data APIs
 * Apply data preprocessing and feature engineering
 * Generate actionable predictions
-* Create a professional data science portfolio project
+* Deploy a scalable prediction app
+* Demonstrate end-to-end data science skills
 
 ---
 
@@ -138,6 +165,7 @@ Data Analyst | Data Scientist
 
 ## 📬 Contact
 
+📧 jhesuafelipe24@gmail.com
 If you have questions or suggestions, feel free to reach out via GitHub.
 
 ---
