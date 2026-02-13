@@ -82,7 +82,6 @@ A Random Forest classifier was trained to predict:
 | Recall | XX% |
 | F1-score | XX% |
 
-*(Replace XX% with real results)*
 
 The trained model is saved using `joblib` for fast inference.
 
