@@ -204,7 +204,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2014,2014-06-12,2014-07-13,False,True,True,False,False,False,True,True,True,True,False,True,False,1,World Cup,World
 2018,2018-06-14,2018-07-15,False,True,True,True,True,True,True,True,True,True,False,True,False,1,World Cup,World
 2022,2022-11-20,2022-12-18,False,True,True,True,True,True,True,True,True,True,False,True,False,1,World Cup,World
-2026,2026-06-11,2026-06-28,True,False,False,False,False,True,True,True,True,True,False,True,False,1,World Cup,World
+2026,2026-06-11,2026-06-28,True,False,False,False,False,True,False,False,False,False,False,True,False,1,World Cup,World
 2010,2010-11-11,2010-11-25,False,True,True,False,False,False,True,True,True,True,False,True,False,803,Asian Games,World
 2014,2014-09-14,2014-10-02,False,True,True,False,False,False,True,True,True,True,False,True,False,803,Asian Games,World
 2018,2018-08-10,2018-09-01,False,True,True,False,False,False,True,True,True,True,False,True,False,803,Asian Games,World
@@ -302,7 +302,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-30,2023-04-02,False,True,True,True,True,False,True,True,True,True,False,True,False,46,EFL Trophy,England
 2023,2023-08-22,2024-04-07,False,True,True,True,True,False,True,True,True,True,False,True,False,46,EFL Trophy,England
 2024,2024-08-20,2025-04-13,False,True,True,True,True,False,True,True,True,True,False,True,False,46,EFL Trophy,England
-2025,2025-08-26,2026-02-10,True,True,True,True,True,True,True,True,True,True,False,True,False,46,EFL Trophy,England
+2025,2025-08-26,2026-02-10,True,True,True,True,True,True,True,True,True,True,False,True,True,46,EFL Trophy,England
 2011,2011-09-17,2012-05-05,False,True,True,False,False,False,True,True,True,True,False,True,False,45,FA Cup,England
 2012,2012-08-10,2013-05-11,False,True,True,False,False,False,True,True,True,True,False,True,False,45,FA Cup,England
 2013,2013-08-16,2014-05-17,False,True,True,False,False,False,True,True,True,True,False,True,False,45,FA Cup,England
@@ -332,7 +332,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-12,2023-05-21,False,True,True,False,False,False,True,True,True,True,False,True,False,47,FA Trophy,England
 2023,2023-09-08,2024-05-11,False,True,True,False,False,False,True,True,True,True,False,True,False,47,FA Trophy,England
 2024,2024-08-24,2025-05-11,False,True,True,False,False,False,True,True,True,True,False,True,False,47,FA Trophy,England
-2025,2025-08-22,2026-02-28,True,True,False,False,False,False,False,False,False,False,False,True,True,47,FA Trophy,England
+2025,2025-08-22,2026-02-28,True,True,False,False,False,False,False,False,False,False,False,True,False,47,FA Trophy,England
 2011,2011-07-29,2012-02-26,False,True,True,False,False,False,True,True,True,True,False,True,False,48,League Cup,England
 2012,2012-08-11,2013-02-24,False,True,True,False,False,False,True,True,True,True,False,True,False,48,League Cup,England
 2013,2013-08-05,2014-03-02,False,True,True,False,False,False,True,True,True,True,False,True,False,48,League Cup,England
@@ -1015,7 +1015,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-07-15,2023-04-30,False,True,True,False,False,False,True,True,True,True,False,True,False,220,Cup,Austria
 2023,2023-07-20,2024-05-01,False,True,True,False,False,False,True,True,True,True,False,True,False,220,Cup,Austria
 2024,2024-07-26,2025-05-01,False,True,True,False,False,False,True,True,True,True,False,True,False,220,Cup,Austria
-2025,2025-07-25,2026-03-03,True,True,True,False,False,False,True,True,True,True,False,True,True,220,Cup,Austria
+2025,2025-07-25,2026-03-03,True,True,True,False,False,False,True,True,True,True,False,True,False,220,Cup,Austria
 2011,2011-07-11,2012-05-18,False,True,True,False,False,True,True,True,True,True,False,True,False,219,2. Liga,Austria
 2012,2012-07-20,2013-05-24,False,True,True,False,False,True,True,True,True,True,False,True,False,219,2. Liga,Austria
 2013,2013-07-19,2014-05-23,False,True,True,False,False,True,True,True,True,True,False,True,False,219,2. Liga,Austria
@@ -1149,7 +1149,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-16,2023-04-30,False,True,True,False,False,False,True,True,True,True,False,True,False,112,Welsh Cup,Wales
 2023,2023-09-15,2024-04-28,False,True,True,False,False,False,True,True,True,True,False,True,False,112,Welsh Cup,Wales
 2024,2024-09-20,2025-05-04,False,True,True,False,False,False,True,True,True,True,False,True,False,112,Welsh Cup,Wales
-2025,2025-09-19,2026-01-31,True,True,True,False,False,False,False,False,False,False,False,True,True,112,Welsh Cup,Wales
+2025,2025-09-19,2026-03-07,True,True,True,False,False,False,False,False,False,False,False,True,False,112,Welsh Cup,Wales
 2011,2011-08-11,2012-05-31,False,True,True,False,False,True,True,True,True,True,False,True,False,299,Primera División,Venezuela
 2012,2012-08-11,2013-05-29,False,True,True,False,False,True,True,True,True,True,False,True,False,299,Primera División,Venezuela
 2013,2013-08-10,2014-05-28,False,True,True,False,False,True,True,True,True,True,False,True,False,299,Primera División,Venezuela
@@ -1224,7 +1224,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-04-08,2022-11-04,False,True,False,False,False,True,True,True,True,True,False,True,False,387,League,Jordan
 2023,2023-08-03,2024-05-25,False,True,False,False,False,True,True,True,True,True,False,True,False,387,League,Jordan
 2024,2024-08-08,2025-05-03,False,True,False,False,False,True,True,True,True,True,False,True,False,387,League,Jordan
-2025,2025-07-31,2026-03-03,True,True,False,False,False,True,False,False,False,False,False,True,True,387,League,Jordan
+2025,2025-07-31,2026-03-03,True,True,False,False,False,True,True,True,True,True,False,True,True,387,League,Jordan
 2011,2011-04-24,2011-10-23,False,False,False,False,False,True,False,False,False,False,False,True,False,388,1. Division,Kazakhstan
 2012,2012-04-27,2012-10-19,False,False,False,False,False,True,False,False,False,False,False,True,False,388,1. Division,Kazakhstan
 2013,2013-03-31,2013-10-26,False,False,False,False,False,True,False,False,False,False,False,True,False,388,1. Division,Kazakhstan
@@ -1374,7 +1374,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-27,2023-05-07,False,True,True,False,False,True,True,True,True,True,False,True,False,380,Premier League,Hong-Kong
 2023,2023-08-19,2024-05-26,False,True,True,False,False,True,True,True,True,True,False,True,False,380,Premier League,Hong-Kong
 2024,2024-08-30,2025-05-25,False,True,True,False,False,True,True,True,True,True,False,True,False,380,Premier League,Hong-Kong
-2025,2025-08-29,2026-04-12,True,True,True,False,False,True,False,False,False,False,True,True,True,380,Premier League,Hong-Kong
+2025,2025-08-29,2026-04-12,True,True,True,False,False,True,False,False,False,False,True,True,False,380,Premier League,Hong-Kong
 2011,2011-09-20,2012-05-01,False,True,True,False,False,False,True,True,True,True,False,True,False,273,Magyar Kupa,Hungary
 2012,2012-08-08,2013-05-22,False,True,True,False,False,False,True,True,True,True,False,True,False,273,Magyar Kupa,Hungary
 2013,2013-08-07,2014-05-25,False,True,True,False,False,False,True,True,True,True,False,True,False,273,Magyar Kupa,Hungary
@@ -1462,7 +1462,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-07-09,2023-05-20,False,True,True,False,False,True,True,True,True,True,False,True,False,370,Primera Division,El-Salvador
 2023,2023-08-13,2024-05-25,False,True,True,False,False,True,True,True,True,True,False,True,False,370,Primera Division,El-Salvador
 2024,2024-07-27,2025-05-23,False,True,True,False,False,True,True,True,True,True,False,True,False,370,Primera Division,El-Salvador
-2025,2025-07-20,2026-05-02,True,True,True,False,False,True,False,False,False,False,False,True,True,370,Primera Division,El-Salvador
+2025,2025-07-20,2026-05-02,True,True,True,False,False,True,True,True,True,True,False,True,True,370,Primera Division,El-Salvador
 2011,2011-03-06,2011-11-06,False,True,True,False,False,True,True,True,True,True,False,True,False,328,Esiliiga A,Estonia
 2012,2012-03-11,2012-11-04,False,True,True,False,False,True,True,True,True,True,False,True,False,328,Esiliiga A,Estonia
 2013,2013-03-10,2013-11-10,False,True,True,False,False,True,True,True,True,True,False,True,False,328,Esiliiga A,Estonia
@@ -1525,7 +1525,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-09,2023-06-09,False,True,False,False,False,True,True,True,True,True,False,True,False,570,Premier League,Ghana
 2023,2023-09-15,2024-06-15,False,True,False,False,False,True,True,True,True,True,False,True,False,570,Premier League,Ghana
 2024,2024-09-06,2025-06-07,False,True,False,False,False,True,True,True,True,True,False,True,False,570,Premier League,Ghana
-2025,2025-09-12,2026-05-23,True,True,True,False,False,True,True,True,True,True,False,True,True,570,Premier League,Ghana
+2025,2025-09-12,2026-05-23,True,True,True,False,False,True,True,True,True,True,False,True,False,570,Premier League,Ghana
 2011,2011-09-25,2012-05-19,False,False,False,False,False,False,False,False,False,False,False,True,False,377,Division d'Honneur,Guadeloupe
 2012,2012-08-30,2013-05-26,False,False,False,False,False,False,False,False,False,False,False,True,False,377,Division d'Honneur,Guadeloupe
 2013,2013-08-31,2014-05-18,False,False,False,False,False,False,False,False,False,False,False,True,False,377,Division d'Honneur,Guadeloupe
@@ -1826,7 +1826,8 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-04-09,2022-11-05,False,True,True,True,True,True,True,True,True,True,False,True,False,72,Serie B,Brazil
 2023,2023-04-14,2023-11-25,False,True,True,True,True,True,True,True,True,True,False,True,False,72,Serie B,Brazil
 2024,2024-04-19,2024-11-26,False,True,True,True,True,True,True,True,True,True,False,True,False,72,Serie B,Brazil
-2025,2025-04-04,2025-11-22,True,True,True,True,True,True,True,True,True,True,False,True,False,72,Serie B,Brazil
+2025,2025-04-04,2025-11-22,False,True,True,True,True,True,True,True,True,True,False,True,False,72,Serie B,Brazil
+2026,2026-03-22,2026-11-14,True,False,False,False,False,True,False,False,False,False,False,True,False,72,Serie B,Brazil
 2012,2012-06-30,2012-12-01,False,True,True,False,False,False,True,True,True,True,False,True,False,75,Serie C,Brazil
 2013,2013-06-01,2013-12-01,False,True,True,False,False,False,True,True,True,True,False,True,False,75,Serie C,Brazil
 2014,2014-04-26,2014-11-22,False,True,True,False,False,False,True,True,True,True,False,True,False,75,Serie C,Brazil
@@ -1868,7 +1869,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-30,2023-05-27,False,True,False,False,False,True,True,True,True,True,False,True,False,585,Premier League,Uganda
 2023,2023-09-15,2024-05-25,False,True,False,False,False,True,True,True,True,True,False,True,False,585,Premier League,Uganda
 2024,2024-09-13,2025-05-24,False,True,False,False,False,True,True,True,True,True,False,True,False,585,Premier League,Uganda
-2025,2025-09-26,2026-05-23,True,True,True,False,False,True,False,False,False,False,False,True,True,585,Premier League,Uganda
+2025,2025-09-26,2026-05-23,True,True,True,False,False,True,False,False,False,False,False,True,False,585,Premier League,Uganda
 2012,2011-12-11,2012-09-04,False,False,False,False,False,True,False,False,False,False,False,True,False,598,Première Division,Mali
 2013,2012-11-23,2013-08-10,False,False,False,False,False,True,False,False,False,False,False,True,False,598,Première Division,Mali
 2014,2013-11-22,2014-09-18,False,False,False,False,False,True,False,False,False,False,False,True,False,598,Première Division,Mali
@@ -2217,7 +2218,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-07-30,2023-05-26,False,True,True,False,False,True,True,True,True,True,False,True,False,342,Premier League,Armenia
 2023,2023-07-29,2024-05-24,False,True,True,False,False,True,True,True,True,True,False,True,False,342,Premier League,Armenia
 2024,2024-08-02,2025-05-28,False,True,True,False,False,True,True,True,True,True,False,True,False,342,Premier League,Armenia
-2025,2025-08-01,2025-12-06,True,True,True,False,False,True,True,True,True,True,True,True,False,342,Premier League,Armenia
+2025,2025-08-01,2026-03-08,True,True,True,False,False,True,True,True,True,True,True,True,False,342,Premier League,Armenia
 2012,2012-04-06,2012-09-09,False,False,False,False,False,False,False,False,False,False,False,True,False,481,Northern NSW NPL,Australia
 2013,2013-04-06,2013-09-08,False,False,False,False,False,False,False,False,False,False,False,True,False,481,Northern NSW NPL,Australia
 2014,2014-04-05,2014-08-10,False,False,False,False,False,False,False,False,False,False,False,True,False,481,Northern NSW NPL,Australia
@@ -2359,7 +2360,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-02-18,2023-12-02,False,True,True,False,False,True,True,True,True,True,False,True,False,99,J2 League,Japan
 2024,2024-02-24,2024-12-07,False,True,True,False,False,True,True,True,True,True,False,True,False,99,J2 League,Japan
 2025,2025-02-15,2025-12-14,False,True,True,False,False,True,True,True,True,True,True,True,False,99,J2 League,Japan
-2026,2026-02-07,2026-05-24,True,True,False,False,False,True,False,False,False,False,False,True,True,99,J2 League,Japan
+2026,2026-02-07,2026-05-24,True,True,True,False,False,True,False,False,False,False,False,True,True,99,J2 League,Japan
 2012,2012-03-11,2012-11-18,False,False,False,False,False,False,False,False,False,False,False,True,False,100,J3 League,Japan
 2013,2013-03-10,2013-11-24,False,False,False,False,False,False,False,False,False,False,False,True,False,100,J3 League,Japan
 2014,2014-03-16,2014-11-29,False,False,False,False,False,True,False,False,False,False,False,True,False,100,J3 League,Japan
@@ -2540,7 +2541,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-10-28,2023-06-15,False,False,False,False,False,True,True,True,True,True,False,True,False,378,Ligue 1,Guinea
 2023,2023-11-22,2024-07-02,False,False,False,False,False,True,True,True,True,True,False,True,False,378,Ligue 1,Guinea
 2024,2025-01-09,2025-06-23,False,False,False,False,False,True,False,False,False,False,False,True,False,378,Ligue 1,Guinea
-2025,2025-10-26,2026-02-07,True,False,False,False,False,False,False,False,False,False,False,True,False,378,Ligue 1,Guinea
+2025,2025-10-26,2026-02-12,True,False,False,False,False,False,False,False,False,False,False,True,False,378,Ligue 1,Guinea
 2014,2013-03-02,2014-05-30,True,True,True,False,False,False,True,True,True,True,False,True,False,807,AFC Challenge Cup,World
 2014,2013-06-23,2014-02-01,False,True,True,False,False,False,True,True,True,True,False,True,False,19,African Nations Championship,World
 2016,2015-06-14,2016-02-07,False,True,True,False,False,False,True,True,True,True,False,True,False,19,African Nations Championship,World
@@ -2675,7 +2676,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-30,2023-07-08,False,True,False,False,False,True,False,False,False,False,False,True,False,363,Premier League,Ethiopia
 2023,2023-10-01,2024-06-30,False,True,False,False,False,True,True,True,True,True,False,True,False,363,Premier League,Ethiopia
 2024,2024-09-20,2025-06-28,False,True,False,False,False,True,True,True,True,True,False,True,False,363,Premier League,Ethiopia
-2025,2025-10-18,2026-02-06,True,True,True,False,False,True,False,False,False,False,False,True,True,363,Premier League,Ethiopia
+2025,2025-10-18,2026-02-28,True,True,True,False,False,True,False,False,False,False,False,True,True,363,Premier League,Ethiopia
 2015,2015-07-07,2015-07-26,False,True,True,False,False,False,True,True,True,True,False,True,False,22,CONCACAF Gold Cup,World
 2017,2017-07-07,2017-07-27,False,True,True,False,False,False,True,True,True,True,False,True,False,22,CONCACAF Gold Cup,World
 2019,2019-06-15,2019-07-08,False,True,True,False,False,True,True,True,True,True,False,True,False,22,CONCACAF Gold Cup,World
@@ -2807,7 +2808,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2023-01-15,2023-05-27,False,True,False,False,False,False,True,True,True,True,False,True,False,511,Cup,Tunisia
 2023,2024-01-27,2024-06-30,False,True,False,False,False,False,True,True,True,True,False,True,False,511,Cup,Tunisia
 2024,2025-01-18,2025-06-01,False,True,False,False,False,False,True,True,True,True,False,True,False,511,Cup,Tunisia
-2025,2026-01-10,2026-02-07,True,False,False,False,False,False,False,False,False,False,False,True,False,511,Cup,Tunisia
+2025,2026-01-10,2026-02-07,True,False,False,False,False,False,False,False,False,False,False,True,True,511,Cup,Tunisia
 2016,2016-08-19,2017-06-24,False,True,True,True,True,True,True,True,True,True,False,True,False,141,Segunda División,Spain
 2017,2017-08-18,2018-06-16,False,True,True,True,True,True,True,True,True,True,False,True,False,141,Segunda División,Spain
 2018,2018-08-17,2019-06-16,False,True,True,True,True,True,True,True,True,True,False,True,False,141,Segunda División,Spain
@@ -3257,7 +3258,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-03-04,2022-09-17,False,True,True,False,False,True,True,True,True,True,False,True,False,278,Super League,Malaysia
 2023,2023-02-24,2023-12-17,False,True,True,False,False,True,True,True,True,True,False,True,False,278,Super League,Malaysia
 2024,2024-05-10,2025-04-26,False,True,True,False,False,True,True,True,True,True,False,True,False,278,Super League,Malaysia
-2025,2025-08-08,2026-05-15,True,True,True,False,False,True,True,True,True,True,True,True,True,278,Super League,Malaysia
+2025,2025-08-08,2026-05-15,True,True,True,False,False,True,True,True,True,True,True,True,False,278,Super League,Malaysia
 2016,2016-02-12,2016-10-22,False,False,False,False,False,True,True,True,True,True,False,True,False,279,Premier League,Malaysia
 2017,2017-01-20,2017-10-27,False,False,False,False,False,True,True,True,True,True,False,True,False,279,Premier League,Malaysia
 2018,2018-02-01,2018-07-27,False,False,False,False,False,False,False,False,False,False,False,True,False,279,Premier League,Malaysia
@@ -3350,7 +3351,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-02,2023-05-14,False,True,True,False,False,True,True,True,True,True,False,True,False,289,1st Division,South-Africa
 2023,2023-08-25,2024-05-19,False,True,True,False,False,True,True,True,True,True,False,True,False,289,1st Division,South-Africa
 2024,2024-08-23,2025-05-18,False,True,True,False,False,True,True,True,True,True,False,True,False,289,1st Division,South-Africa
-2025,2025-08-22,2026-05-17,True,True,True,False,False,True,False,False,False,False,False,True,True,289,1st Division,South-Africa
+2025,2025-08-22,2026-05-17,True,True,True,False,False,True,False,False,False,False,False,True,False,289,1st Division,South-Africa
 2016,2016-07-25,2017-05-04,False,True,True,False,False,True,True,True,True,True,False,True,False,290,Persian Gulf Pro League,Iran
 2017,2017-07-27,2018-04-27,False,True,True,False,False,True,True,True,True,True,False,True,False,290,Persian Gulf Pro League,Iran
 2018,2018-07-26,2019-05-16,False,True,True,False,False,True,True,True,True,True,False,True,False,290,Persian Gulf Pro League,Iran
@@ -3581,7 +3582,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-10-18,2023-05-17,False,True,True,False,False,False,True,True,True,True,False,True,False,314,Cup,Bosnia
 2023,2023-09-26,2024-05-15,False,True,True,False,False,False,True,True,True,True,False,True,False,314,Cup,Bosnia
 2024,2024-10-29,2025-05-13,False,True,True,False,False,False,True,True,True,True,False,True,False,314,Cup,Bosnia
-2025,2025-10-28,2026-02-11,True,True,True,False,False,False,False,False,False,False,False,True,False,314,Cup,Bosnia
+2025,2025-10-28,2026-02-11,True,True,True,False,False,False,False,False,False,False,False,True,True,314,Cup,Bosnia
 2016,2016-07-23,2017-05-28,False,True,True,False,False,True,True,True,True,True,False,True,False,315,Premijer Liga,Bosnia
 2017,2017-07-22,2018-05-20,False,True,True,False,False,True,True,True,True,True,False,True,False,315,Premijer Liga,Bosnia
 2018,2018-07-21,2019-05-25,False,True,True,False,False,True,True,True,True,True,False,True,False,315,Premijer Liga,Bosnia
@@ -3601,7 +3602,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-06,2023-05-14,False,True,True,False,False,True,True,True,True,True,False,True,False,371,First League,Macedonia
 2023,2023-08-06,2024-05-26,False,True,True,False,False,True,True,True,True,True,False,True,False,371,First League,Macedonia
 2024,2024-08-11,2025-05-25,False,True,True,False,False,True,True,True,True,True,False,True,False,371,First League,Macedonia
-2025,2025-08-08,2026-03-08,True,True,True,True,False,True,True,True,True,True,True,True,False,371,First League,Macedonia
+2025,2025-08-08,2026-03-08,True,True,True,True,False,True,True,True,True,True,True,True,True,371,First League,Macedonia
 2016,2016-08-19,2017-05-19,False,True,True,False,False,True,True,True,True,True,False,True,False,382,Liga Leumit,Israel
 2017,2017-08-18,2018-05-21,False,True,True,False,False,True,True,True,True,True,False,True,False,382,Liga Leumit,Israel
 2018,2018-08-23,2019-05-20,False,True,True,False,False,True,True,True,True,True,False,True,False,382,Liga Leumit,Israel
@@ -3631,7 +3632,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-10,2023-06-11,False,True,False,False,False,True,True,True,True,True,False,True,False,386,Ligue 1,Ivory-Coast
 2023,2023-10-07,2024-06-01,False,True,False,False,False,True,True,True,True,True,False,True,False,386,Ligue 1,Ivory-Coast
 2024,2024-09-20,2025-05-19,False,True,False,False,False,True,True,True,True,True,False,True,False,386,Ligue 1,Ivory-Coast
-2025,2025-08-16,2026-02-25,True,True,False,False,False,True,False,False,False,False,False,True,True,386,Ligue 1,Ivory-Coast
+2025,2025-08-16,2026-02-25,True,True,False,False,False,True,False,False,False,False,False,True,False,386,Ligue 1,Ivory-Coast
 2016,2016-09-09,2017-04-30,False,False,False,False,False,False,True,True,True,True,False,True,False,392,Challenge League,Malta
 2017,2017-09-09,2018-04-22,False,False,False,False,False,False,False,False,False,False,False,True,False,392,Challenge League,Malta
 2018,2018-09-14,2019-04-28,False,False,False,False,False,False,True,True,True,True,False,True,False,392,Challenge League,Malta
@@ -3828,7 +3829,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-03-08,2023-05-06,False,True,True,True,True,True,True,True,True,True,False,True,False,17,AFC Champions League,World
 2023,2023-08-15,2024-05-25,False,True,True,True,True,True,True,True,True,True,False,True,False,17,AFC Champions League,World
 2024,2024-08-06,2025-05-03,False,True,True,True,True,True,True,True,True,True,False,True,False,17,AFC Champions League,World
-2025,2025-08-12,2026-02-18,True,True,True,True,True,True,True,True,True,True,True,True,False,17,AFC Champions League,World
+2025,2025-08-12,2026-02-18,True,True,True,True,True,True,True,True,True,True,True,True,True,17,AFC Champions League,World
 2016,2017-12-22,2018-01-05,False,True,True,False,False,True,False,False,False,False,False,True,False,25,Gulf Cup of Nations,World
 2019,2019-11-26,2019-12-08,False,True,True,False,False,False,True,True,True,True,False,True,False,25,Gulf Cup of Nations,World
 2023,2023-01-06,2023-01-19,False,True,True,False,False,False,True,True,True,True,False,True,False,25,Gulf Cup of Nations,World
@@ -4057,7 +4058,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-04-05,2022-10-22,False,True,True,False,False,False,True,True,True,True,False,True,False,18,AFC Cup,World
 2023,2023-08-08,2024-05-05,False,True,True,True,True,False,True,True,True,True,False,True,False,18,AFC Cup,World
 2024,2024-08-14,2025-05-18,False,True,True,True,True,False,True,True,True,True,False,True,False,18,AFC Cup,World
-2025,2025-08-13,2026-02-19,True,True,True,True,True,False,True,True,True,True,False,True,False,18,AFC Cup,World
+2025,2025-08-13,2026-02-19,True,True,True,True,True,False,True,True,True,True,False,True,True,18,AFC Cup,World
 2017,2017-02-10,2017-11-25,False,True,True,False,False,False,True,True,True,True,False,True,False,20,CAF Confederation Cup,World
 2018,2018-02-09,2018-12-02,False,True,True,False,False,True,True,True,True,True,False,True,False,20,CAF Confederation Cup,World
 2019,2019-08-09,2020-10-25,False,True,True,True,True,False,True,True,True,True,False,True,False,20,CAF Confederation Cup,World
@@ -4089,7 +4090,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-14,2023-04-08,False,True,True,False,False,True,True,True,True,True,False,True,False,77,Alagoano,Brazil
 2024,2024-01-20,2024-04-06,False,True,True,False,False,True,True,True,True,True,False,True,False,77,Alagoano,Brazil
 2025,2025-01-11,2025-03-15,False,True,True,False,False,True,True,True,True,True,False,True,False,77,Alagoano,Brazil
-2026,2026-01-10,2026-02-07,True,True,True,False,False,True,True,True,True,True,False,True,True,77,Alagoano,Brazil
+2026,2026-01-10,2026-02-21,True,True,True,False,False,True,True,True,True,True,False,True,True,77,Alagoano,Brazil
 2017,2017-07-15,2018-06-02,False,True,True,False,False,False,True,True,True,True,False,True,False,337,Druha Liga - Group B,Ukraine
 2018,2018-07-21,2019-05-25,False,True,True,False,False,False,True,True,True,True,False,True,False,337,Druha Liga - Group B,Ukraine
 2019,2019-07-27,2020-05-22,False,True,True,False,False,True,True,True,True,True,False,True,False,337,Druha Liga - Group B,Ukraine
@@ -4367,7 +4368,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-30,2023-05-23,False,True,True,False,False,False,True,True,True,True,False,True,False,384,State Cup,Israel
 2023,2023-08-31,2024-05-30,False,True,True,False,False,False,True,True,True,True,False,True,False,384,State Cup,Israel
 2024,2024-08-29,2025-05-28,False,True,True,False,False,False,True,True,True,True,False,True,False,384,State Cup,Israel
-2025,2025-09-30,2026-02-04,True,True,True,False,False,False,False,False,False,False,False,True,True,384,State Cup,Israel
+2025,2025-09-30,2026-03-17,True,True,True,False,False,False,False,False,False,False,False,True,True,384,State Cup,Israel
 2018,2018-08-01,2019-05-25,False,True,True,False,False,False,True,True,True,True,False,True,False,285,Cupa României,Romania
 2019,2019-07-31,2020-07-22,False,True,True,False,False,False,True,True,True,True,False,True,False,285,Cupa României,Romania
 2020,2020-09-09,2021-05-22,False,True,True,False,False,False,True,True,True,True,False,True,False,285,Cupa României,Romania
@@ -4442,7 +4443,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-11-26,2023-07-08,False,True,False,False,False,False,False,False,False,False,False,True,False,277,Super League,Kenya
 2023,2023-09-16,2024-06-30,False,True,False,False,False,False,False,False,False,False,False,True,False,277,Super League,Kenya
 2024,2024-09-21,2025-06-15,False,True,False,False,False,False,False,False,False,False,False,True,False,277,Super League,Kenya
-2025,2025-09-27,2026-05-10,True,True,False,False,False,True,False,False,False,False,False,True,True,277,Super League,Kenya
+2025,2025-09-27,2026-05-10,True,True,False,False,False,True,False,False,False,False,False,True,False,277,Super League,Kenya
 2018,2018-08-25,2019-05-05,False,True,True,True,False,True,True,True,True,True,False,True,False,318,1. Division,Cyprus
 2019,2019-08-23,2020-04-15,False,True,True,True,False,True,True,True,True,True,False,True,False,318,1. Division,Cyprus
 2020,2020-08-21,2021-05-29,False,True,True,True,False,True,True,True,True,True,False,True,False,318,1. Division,Cyprus
@@ -4581,7 +4582,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-11,2023-01-23,False,True,True,False,False,False,True,True,True,True,False,True,False,716,Senior Shield,Hong-Kong
 2023,2023-09-30,2024-02-10,False,True,True,False,False,False,True,True,True,True,False,True,False,716,Senior Shield,Hong-Kong
 2024,2024-09-08,2025-01-30,False,True,True,False,False,False,True,True,True,True,False,True,False,716,Senior Shield,Hong-Kong
-2025,2025-09-03,2026-02-07,True,True,True,False,False,False,False,False,False,False,False,True,True,716,Senior Shield,Hong-Kong
+2025,2025-09-03,2026-02-18,True,True,True,False,False,False,False,False,False,False,False,True,True,716,Senior Shield,Hong-Kong
 2019,2019-08-18,2021-01-11,False,True,True,False,False,False,True,True,True,True,False,True,False,768,Arab Club Champions Cup,World
 2023,2023-03-02,2023-08-12,True,True,True,True,True,False,True,True,True,True,False,True,False,768,Arab Club Champions Cup,World
 2019,2019-07-17,2019-07-20,True,True,True,False,False,False,True,True,True,True,False,True,False,769,Premier League Asia Trophy,World
@@ -5126,7 +5127,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-11,2023-04-23,False,True,True,False,False,True,True,True,True,True,False,True,False,445,Tercera División RFEF - Group 7,Spain
 2023,2023-09-10,2024-05-12,False,True,True,False,False,True,True,True,True,True,False,True,False,445,Tercera División RFEF - Group 7,Spain
 2024,2024-09-08,2025-05-11,False,True,True,False,False,True,True,True,True,True,False,True,False,445,Tercera División RFEF - Group 7,Spain
-2025,2025-09-06,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,True,445,Tercera División RFEF - Group 7,Spain
+2025,2025-09-06,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,False,445,Tercera División RFEF - Group 7,Spain
 2019,2019-08-24,2020-05-16,False,True,True,False,False,True,True,True,True,True,False,True,False,446,Tercera División RFEF - Group 8,Spain
 2020,2020-10-17,2021-06-20,False,True,True,False,False,True,True,True,True,True,False,True,False,446,Tercera División RFEF - Group 8,Spain
 2021,2021-09-04,2022-05-01,False,True,True,False,False,True,True,True,True,True,False,True,False,446,Tercera División RFEF - Group 8,Spain
@@ -5140,14 +5141,14 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-10,2023-04-23,False,True,True,False,False,True,True,True,True,True,False,True,False,447,Tercera División RFEF - Group 9,Spain
 2023,2023-09-09,2024-05-12,False,True,True,False,False,True,True,True,True,True,False,True,False,447,Tercera División RFEF - Group 9,Spain
 2024,2024-09-07,2025-05-11,False,True,True,False,False,True,True,True,True,True,False,True,False,447,Tercera División RFEF - Group 9,Spain
-2025,2025-09-06,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,True,447,Tercera División RFEF - Group 9,Spain
+2025,2025-09-06,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,False,447,Tercera División RFEF - Group 9,Spain
 2019,2019-08-24,2020-05-16,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2020,2020-10-18,2021-06-06,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2021,2021-09-11,2022-04-24,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2022,2022-09-11,2023-04-23,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2023,2023-09-10,2024-05-12,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2024,2024-09-08,2025-05-11,False,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
-2025,2025-09-05,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,True,448,Tercera División RFEF - Group 10,Spain
+2025,2025-09-05,2026-05-10,True,True,True,False,False,True,True,True,True,True,False,True,False,448,Tercera División RFEF - Group 10,Spain
 2019,2019-08-24,2020-05-16,False,True,True,False,False,True,True,True,True,True,False,True,False,449,Tercera División RFEF - Group 11,Spain
 2020,2020-10-17,2021-06-20,False,True,True,False,False,True,True,True,True,True,False,True,False,449,Tercera División RFEF - Group 11,Spain
 2021,2021-09-04,2022-05-01,False,True,True,False,False,True,True,True,True,True,False,True,False,449,Tercera División RFEF - Group 11,Spain
@@ -5362,7 +5363,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-11-04,2023-06-18,False,True,True,False,False,True,True,True,True,True,False,True,False,494,Super League 2,Greece
 2023,2023-09-23,2024-05-22,False,True,True,False,False,True,True,True,True,True,False,True,False,494,Super League 2,Greece
 2024,2024-09-20,2025-05-04,False,True,True,False,False,True,True,True,True,True,False,True,False,494,Super League 2,Greece
-2025,2025-09-13,2026-04-26,True,True,True,False,False,True,True,True,True,True,False,True,False,494,Super League 2,Greece
+2025,2025-09-13,2026-04-26,True,True,True,False,False,True,True,True,True,True,False,True,True,494,Super League 2,Greece
 2019,2019-05-28,2019-12-05,False,False,False,False,False,False,True,True,True,True,False,True,False,501,Copa Paraguay,Paraguay
 2021,2021-07-27,2021-12-01,False,True,False,False,False,False,True,True,True,True,False,True,False,501,Copa Paraguay,Paraguay
 2022,2022-06-28,2022-11-10,False,True,False,False,False,False,True,True,True,True,False,True,False,501,Copa Paraguay,Paraguay
@@ -5425,7 +5426,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-11-13,2023-04-30,False,False,False,False,False,True,True,True,True,True,False,True,False,576,Gamma Ethniki - Group 1,Greece
 2023,2023-09-10,2024-04-28,False,True,False,False,False,True,True,True,True,True,False,True,False,576,Gamma Ethniki - Group 1,Greece
 2024,2024-09-22,2025-04-27,False,False,False,False,False,True,True,True,True,True,False,True,False,576,Gamma Ethniki - Group 1,Greece
-2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,True,576,Gamma Ethniki - Group 1,Greece
+2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,False,576,Gamma Ethniki - Group 1,Greece
 2019,2019-09-22,2020-03-29,False,False,False,False,False,True,False,False,False,False,False,True,False,577,Gamma Ethniki - Group 2,Greece
 2020,2020-10-11,2021-04-18,False,False,False,False,False,True,False,False,False,False,False,True,False,577,Gamma Ethniki - Group 2,Greece
 2021,2021-10-23,2022-04-03,False,False,False,False,False,True,False,False,False,False,False,True,False,577,Gamma Ethniki - Group 2,Greece
@@ -5446,16 +5447,16 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-11-13,2023-04-30,False,True,False,False,False,True,True,True,True,True,False,True,False,579,Gamma Ethniki - Group 4,Greece
 2023,2023-09-10,2024-04-28,False,True,False,False,False,True,True,True,True,True,False,True,False,579,Gamma Ethniki - Group 4,Greece
 2024,2024-09-22,2025-04-27,False,False,False,False,False,True,True,True,True,True,False,True,False,579,Gamma Ethniki - Group 4,Greece
-2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,True,579,Gamma Ethniki - Group 4,Greece
+2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,False,579,Gamma Ethniki - Group 4,Greece
 2019,2019-09-22,2020-03-29,False,False,False,False,False,True,False,False,False,False,False,True,False,580,Gamma Ethniki - Group 5,Greece
 2020,2020-10-18,2021-04-18,False,False,False,False,False,True,False,False,False,False,False,True,False,580,Gamma Ethniki - Group 5,Greece
 2021,2021-10-24,2022-04-03,False,False,False,False,False,True,False,False,False,False,False,True,False,580,Gamma Ethniki - Group 5,Greece
 2022,2022-11-13,2023-04-30,False,False,False,False,False,True,True,True,True,True,False,True,False,580,Gamma Ethniki - Group 5,Greece
-2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,True,580,Gamma Ethniki - Group 5,Greece
+2025,2025-09-21,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,False,580,Gamma Ethniki - Group 5,Greece
 2019,2019-09-22,2020-03-29,False,False,False,False,False,True,False,False,False,False,False,True,False,581,Gamma Ethniki - Group 6,Greece
 2020,2020-10-18,2021-06-06,False,False,False,False,False,True,False,False,False,False,False,True,False,581,Gamma Ethniki - Group 6,Greece
 2021,2021-10-24,2022-04-03,False,False,False,False,False,True,False,False,False,False,False,True,False,581,Gamma Ethniki - Group 6,Greece
-2025,2025-09-20,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,True,581,Gamma Ethniki - Group 6,Greece
+2025,2025-09-20,2026-03-01,True,False,False,False,False,True,False,False,False,False,False,True,False,581,Gamma Ethniki - Group 6,Greece
 2019,2019-09-22,2020-03-29,False,False,False,False,False,True,False,False,False,False,False,True,False,582,Gamma Ethniki - Group 7,Greece
 2020,2020-10-11,2021-06-06,False,False,False,False,False,True,False,False,False,False,False,True,False,582,Gamma Ethniki - Group 7,Greece
 2021,2021-10-23,2022-04-03,True,False,False,False,False,True,False,False,False,False,False,True,False,582,Gamma Ethniki - Group 7,Greece
@@ -5642,7 +5643,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2023-02-10,2023-02-10,False,True,True,False,False,False,False,False,False,False,False,True,False,546,FAI President's Cup,Ireland
 2023,2024-02-09,2024-02-09,False,True,True,False,False,False,True,True,True,True,False,True,False,546,FAI President's Cup,Ireland
 2024,2025-02-07,2025-02-07,False,True,True,False,False,False,False,False,False,False,False,True,False,546,FAI President's Cup,Ireland
-2025,2026-01-31,2026-01-31,True,True,True,False,False,False,True,True,True,True,False,True,True,546,FAI President's Cup,Ireland
+2025,2026-01-31,2026-01-31,True,True,True,False,False,False,True,True,True,True,False,True,False,546,FAI President's Cup,Ireland
 2019,2019-02-02,2019-09-15,False,False,False,False,False,False,True,True,True,True,False,True,False,482,Queensland NPL,Australia
 2020,2020-02-08,2020-11-28,False,True,True,False,False,True,True,True,True,True,False,True,False,482,Queensland NPL,Australia
 2021,2021-03-05,2021-11-06,False,True,True,False,False,True,True,True,True,True,False,True,False,482,Queensland NPL,Australia
@@ -5656,7 +5657,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-28,2023-01-08,False,True,False,False,False,True,True,True,True,True,False,True,False,275,Liga 2,Indonesia
 2023,2023-09-10,2024-03-09,False,True,False,False,False,True,True,True,True,True,False,True,False,275,Liga 2,Indonesia
 2024,2024-09-07,2025-02-28,False,True,False,False,False,True,True,True,True,True,False,True,False,275,Liga 2,Indonesia
-2025,2025-09-12,2026-05-02,True,True,True,False,False,True,False,False,False,False,False,True,True,275,Liga 2,Indonesia
+2025,2025-09-12,2026-05-02,True,True,True,False,False,True,False,False,False,False,False,True,False,275,Liga 2,Indonesia
 2019,2019-04-06,2019-11-02,False,False,False,False,False,False,False,False,False,False,False,True,False,395,Liga 1,Moldova
 2020,2020-07-24,2021-05-25,False,False,False,False,False,False,True,True,True,True,False,True,False,395,Liga 1,Moldova
 2021,2021-07-30,2022-05-13,False,False,False,False,False,False,True,True,True,True,False,True,False,395,Liga 1,Moldova
@@ -5774,7 +5775,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-08-26,2023-06-03,False,True,True,True,False,False,True,True,True,True,False,True,False,181,FA Cup,Scotland
 2023,2023-08-12,2024-05-25,False,True,True,True,False,False,True,True,True,True,False,True,False,181,FA Cup,Scotland
 2024,2024-08-09,2025-05-24,False,True,True,False,False,False,True,True,True,True,False,True,False,181,FA Cup,Scotland
-2025,2025-08-09,2026-02-08,True,True,True,False,False,False,True,True,True,True,False,True,True,181,FA Cup,Scotland
+2025,2025-08-09,2026-03-07,True,True,True,True,False,False,True,True,True,True,False,True,True,181,FA Cup,Scotland
 2019,2019-08-06,2020-03-28,False,True,True,False,False,False,True,True,True,True,False,True,False,182,Challenge Cup,Scotland
 2021,2021-08-10,2022-04-03,False,True,True,False,False,False,True,True,True,True,False,True,False,182,Challenge Cup,Scotland
 2022,2022-08-09,2023-03-26,False,True,True,False,False,False,True,True,True,True,False,True,False,182,Challenge Cup,Scotland
@@ -5870,7 +5871,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-14,2023-04-09,False,True,True,False,False,True,True,True,True,True,False,True,False,606,Paranaense - 1,Brazil
 2024,2024-01-17,2024-04-06,False,True,True,False,False,True,True,True,True,True,False,True,False,606,Paranaense - 1,Brazil
 2025,2025-01-11,2025-03-29,False,True,True,False,False,True,True,True,True,True,False,True,False,606,Paranaense - 1,Brazil
-2026,2026-01-06,2026-02-07,True,True,True,False,False,True,True,True,True,True,False,True,True,606,Paranaense - 1,Brazil
+2026,2026-01-06,2026-02-22,True,True,True,False,False,True,True,True,True,True,False,True,True,606,Paranaense - 1,Brazil
 2020,2020-03-07,2020-12-23,False,False,False,False,False,True,True,True,True,True,False,True,False,607,Roraimense,Brazil
 2021,2021-05-01,2021-06-03,False,False,False,False,False,True,False,False,False,False,False,True,False,607,Roraimense,Brazil
 2022,2022-03-05,2022-05-04,False,False,False,False,False,True,False,False,False,False,False,True,False,607,Roraimense,Brazil
@@ -5891,7 +5892,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-14,2023-04-08,False,True,True,False,False,True,True,True,True,True,False,True,False,609,Cearense - 1,Brazil
 2024,2024-01-20,2024-04-06,False,True,True,False,False,True,True,True,True,True,False,True,False,609,Cearense - 1,Brazil
 2025,2025-01-18,2025-03-22,False,True,True,False,False,True,True,True,True,True,False,True,False,609,Cearense - 1,Brazil
-2026,2026-01-06,2026-02-09,True,True,True,False,False,True,True,True,True,True,False,True,True,609,Cearense - 1,Brazil
+2026,2026-01-06,2026-02-22,True,True,True,False,False,True,True,True,True,True,False,True,True,609,Cearense - 1,Brazil
 2020,2020-01-25,2020-08-29,False,False,False,False,False,True,True,True,True,True,False,True,False,610,Brasiliense,Brazil
 2021,2021-02-20,2021-05-15,False,False,False,False,False,True,True,True,True,True,False,True,False,610,Brasiliense,Brazil
 2022,2022-01-22,2022-04-09,False,False,False,False,False,True,True,True,True,True,False,True,False,610,Brasiliense,Brazil
@@ -5924,7 +5925,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-02-25,2023-05-20,False,True,False,False,False,True,True,True,True,True,False,True,False,615,Rondoniense,Brazil
 2024,2024-02-24,2024-06-08,False,True,False,False,False,True,True,True,True,True,False,True,False,615,Rondoniense,Brazil
 2025,2025-02-01,2025-04-15,False,True,False,False,False,True,True,True,True,True,False,True,False,615,Rondoniense,Brazil
-2026,2026-01-17,2026-03-11,True,True,False,False,False,False,False,False,False,False,False,True,False,615,Rondoniense,Brazil
+2026,2026-01-17,2026-03-11,True,True,False,False,False,False,False,False,False,False,False,True,True,615,Rondoniense,Brazil
 2020,2020-01-05,2020-09-07,False,True,True,False,False,True,True,True,True,True,False,True,False,616,Potiguar,Brazil
 2021,2021-02-24,2021-06-23,False,True,True,False,False,True,True,True,True,True,False,True,False,616,Potiguar,Brazil
 2022,2022-01-09,2022-04-14,False,True,True,False,False,True,True,True,True,True,False,True,False,616,Potiguar,Brazil
@@ -5963,7 +5964,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-06,2023-04-22,False,True,True,False,False,True,True,True,True,True,False,True,False,622,Pernambucano - 1,Brazil
 2024,2024-01-10,2024-04-06,False,True,True,False,False,True,True,True,True,True,False,True,False,622,Pernambucano - 1,Brazil
 2025,2025-01-11,2025-03-27,False,True,True,True,True,True,True,True,True,True,False,True,False,622,Pernambucano - 1,Brazil
-2026,2026-01-09,2026-02-08,True,True,True,False,False,True,True,True,True,True,False,True,True,622,Pernambucano - 1,Brazil
+2026,2026-01-09,2026-02-22,True,True,True,False,False,True,True,True,True,True,False,True,True,622,Pernambucano - 1,Brazil
 2020,2020-01-22,2020-12-24,False,False,False,False,False,True,True,True,True,True,False,True,False,623,Sul-Matogrossense,Brazil
 2021,2021-02-28,2021-05-23,False,False,False,False,False,True,True,True,True,True,False,True,False,623,Sul-Matogrossense,Brazil
 2022,2022-02-02,2022-04-24,False,False,False,False,False,True,True,True,True,True,False,True,False,623,Sul-Matogrossense,Brazil
@@ -5977,7 +5978,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-13,2023-04-09,False,True,True,False,False,True,True,True,True,True,False,True,False,624,Carioca - 1,Brazil
 2024,2024-01-17,2024-04-07,False,True,True,False,False,True,True,True,True,True,False,True,False,624,Carioca - 1,Brazil
 2025,2025-01-11,2025-03-16,False,True,True,True,True,True,True,True,True,True,False,True,False,624,Carioca - 1,Brazil
-2026,2026-01-14,2026-02-07,True,True,True,True,True,True,True,True,True,True,False,True,True,624,Carioca - 1,Brazil
+2026,2026-01-11,2026-02-15,True,True,True,True,True,True,True,True,True,True,False,True,True,624,Carioca - 1,Brazil
 2020,2020-01-11,2020-08-08,False,True,True,False,False,True,True,True,True,True,False,True,False,626,Sergipano,Brazil
 2021,2021-02-20,2021-05-22,False,True,True,False,False,True,True,True,True,True,False,True,False,626,Sergipano,Brazil
 2022,2022-01-15,2022-04-09,False,True,True,False,False,True,True,True,True,True,False,True,False,626,Sergipano,Brazil
@@ -5998,7 +5999,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-10,2023-04-09,False,True,True,False,False,True,True,True,True,True,False,True,False,628,Goiano - 1,Brazil
 2024,2024-01-17,2024-04-07,False,True,True,False,False,True,True,True,True,True,False,True,False,628,Goiano - 1,Brazil
 2025,2025-01-15,2025-03-30,False,True,True,False,False,True,True,True,True,True,False,True,False,628,Goiano - 1,Brazil
-2026,2026-01-10,2026-02-08,True,True,True,False,False,True,True,True,True,True,False,True,True,628,Goiano - 1,Brazil
+2026,2026-01-10,2026-02-18,True,True,True,False,False,True,True,True,True,True,False,True,True,628,Goiano - 1,Brazil
 2020,2020-01-21,2020-08-30,False,True,True,False,False,True,True,True,True,True,False,True,False,629,Mineiro - 1,Brazil
 2021,2021-02-27,2021-05-23,False,True,True,False,False,True,True,True,True,True,False,True,False,629,Mineiro - 1,Brazil
 2022,2022-01-26,2022-04-03,False,True,True,False,False,True,True,True,True,True,False,True,False,629,Mineiro - 1,Brazil
@@ -6026,7 +6027,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-28,2023-01-28,False,True,True,False,False,False,True,True,True,True,False,True,False,632,Supercopa do Brasil,Brazil
 2024,2024-02-03,2024-02-03,False,True,True,False,False,False,True,True,True,True,False,True,False,632,Supercopa do Brasil,Brazil
 2025,2025-02-02,2025-02-02,False,True,True,False,False,False,True,True,True,True,False,True,False,632,Supercopa do Brasil,Brazil
-2026,2026-02-01,2026-02-01,True,True,True,False,False,False,True,True,True,True,False,True,True,632,Supercopa do Brasil,Brazil
+2026,2026-02-01,2026-02-01,True,True,True,False,False,False,True,True,True,True,False,True,False,632,Supercopa do Brasil,Brazil
 2020,2020-03-06,2020-11-28,False,True,False,False,False,True,False,False,False,False,False,True,False,636,Ýokary Liga,Turkmenistan
 2021,2021-10-20,2021-12-19,False,False,False,False,False,True,False,False,False,False,False,True,False,636,Ýokary Liga,Turkmenistan
 2022,2022-08-02,2022-12-20,False,False,False,False,False,True,False,False,False,False,False,True,False,636,Ýokary Liga,Turkmenistan
@@ -6386,7 +6387,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-09-15,2023-06-01,False,True,True,False,False,False,True,True,True,True,False,True,False,707,Cup,Albania
 2023,2023-09-27,2024-05-14,False,True,True,False,False,False,True,True,True,True,False,True,False,707,Cup,Albania
 2024,2024-09-25,2025-04-30,False,True,True,False,False,False,True,True,True,True,False,True,False,707,Cup,Albania
-2025,2025-10-14,2026-03-04,True,True,False,False,False,False,False,False,False,False,False,True,False,707,Cup,Albania
+2025,2025-10-14,2026-03-04,True,True,False,False,False,False,False,False,False,False,False,True,True,707,Cup,Albania
 2020,2020-08-31,2020-08-31,False,True,True,False,False,False,True,True,True,True,False,True,False,708,Super Cup,Albania
 2021,2021-08-28,2021-08-28,False,True,True,False,False,False,False,False,False,False,False,True,False,708,Super Cup,Albania
 2022,2022-12-07,2022-12-07,False,True,True,False,False,False,True,True,True,True,False,True,False,708,Super Cup,Albania
@@ -6647,7 +6648,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-10-29,2023-05-07,False,True,True,False,False,False,True,True,True,True,False,True,False,757,Irish Cup,Northern-Ireland
 2023,2023-10-28,2024-05-04,False,True,True,False,False,False,True,True,True,True,False,True,False,757,Irish Cup,Northern-Ireland
 2024,2024-10-26,2025-05-03,False,True,True,False,False,False,True,True,True,True,False,True,False,757,Irish Cup,Northern-Ireland
-2025,2025-11-21,2026-02-07,True,True,True,False,False,False,False,False,False,False,False,True,True,757,Irish Cup,Northern-Ireland
+2025,2025-11-21,2026-03-07,True,True,True,False,False,False,False,False,False,False,False,True,True,757,Irish Cup,Northern-Ireland
 2020,2020-10-16,2021-05-16,False,True,False,False,False,True,False,False,False,False,False,True,False,758,Premier Division,Gibraltar
 2021,2021-10-16,2022-04-30,False,True,False,False,False,True,True,True,True,True,False,True,False,758,Premier Division,Gibraltar
 2022,2022-09-30,2023-04-23,False,True,False,False,False,True,False,False,False,False,False,True,False,758,Premier Division,Gibraltar
@@ -6910,7 +6911,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2022-10-08,2023-06-03,False,True,False,False,False,True,True,True,True,True,False,True,False,828,Ligue 2,Tunisia
 2023,2023-10-07,2024-06-28,False,True,False,False,False,True,True,True,True,True,False,True,False,828,Ligue 2,Tunisia
 2024,2024-10-16,2025-06-04,False,True,False,False,False,True,True,True,True,True,False,True,False,828,Ligue 2,Tunisia
-2025,2025-09-20,2026-02-01,True,True,True,False,False,True,False,False,False,False,False,True,True,828,Ligue 2,Tunisia
+2025,2025-09-20,2026-02-16,True,True,True,False,False,True,False,False,False,False,False,True,True,828,Ligue 2,Tunisia
 2020,2020-03-05,2020-05-13,True,False,False,False,False,False,False,False,False,False,False,True,False,829,Youth League,Turkmenistan
 2020,2021-03-06,2021-03-06,False,True,True,False,False,False,False,False,False,False,False,True,False,830,Super Cup,Uzbekistan
 2021,2022-02-26,2022-02-26,False,True,True,False,False,False,False,False,False,False,False,True,False,830,Super Cup,Uzbekistan
@@ -6954,7 +6955,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2022,2023-01-08,2023-06-17,False,True,False,False,False,False,False,False,False,False,False,True,False,845,GFA League,Gambia
 2023,2023-11-10,2024-07-05,False,True,False,False,False,False,False,False,False,False,False,True,False,845,GFA League,Gambia
 2024,2024-11-29,2025-06-25,False,True,False,False,False,False,True,True,True,True,False,True,False,845,GFA League,Gambia
-2025,2025-12-16,2026-02-08,True,True,True,False,False,True,False,False,False,False,False,True,True,845,GFA League,Gambia
+2025,2025-12-16,2026-02-17,True,True,True,False,False,True,False,False,False,False,False,True,True,845,GFA League,Gambia
 2020,2020-12-12,2021-08-11,False,False,False,False,False,True,False,False,False,False,False,True,False,847,Premier League,Eswatini
 2021,2021-11-06,2022-06-12,False,False,False,False,False,True,False,False,False,False,False,True,False,847,Premier League,Eswatini
 2022,2022-10-01,2023-05-14,False,False,False,False,False,True,False,False,False,False,False,True,False,847,Premier League,Eswatini
@@ -7242,7 +7243,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-28,2023-11-18,False,True,False,False,False,False,False,False,False,False,False,True,False,823,Nasjonal U19 Champions League,Norway
 2024,2024-01-27,2024-10-30,False,True,False,False,False,False,True,True,True,True,False,True,False,823,Nasjonal U19 Champions League,Norway
 2025,2025-01-24,2025-10-30,False,True,False,False,False,False,True,True,True,True,False,True,False,823,Nasjonal U19 Champions League,Norway
-2026,2026-01-25,2026-04-15,True,True,False,False,False,True,False,False,False,False,False,True,False,823,Nasjonal U19 Champions League,Norway
+2026,2026-01-25,2026-04-15,True,True,True,False,False,True,False,False,False,False,False,True,False,823,Nasjonal U19 Champions League,Norway
 2021,2021-01-25,2021-05-14,False,True,True,False,False,False,True,True,True,True,False,True,False,824,Emir Cup,Qatar
 2022,2022-01-14,2022-03-18,False,True,True,False,False,False,True,True,True,True,False,True,False,824,Emir Cup,Qatar
 2023,2023-01-27,2023-05-12,False,True,True,False,False,False,True,True,True,True,False,True,False,824,Emir Cup,Qatar
@@ -7323,7 +7324,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2023,2023-01-11,2023-01-19,False,True,False,False,False,False,False,False,False,False,False,True,False,900,Tipsport Malta Cup,World
 2024,2024-01-10,2024-01-15,True,True,False,False,False,False,False,False,False,False,False,True,False,900,Tipsport Malta Cup,World
 2022,2022-01-29,2022-03-19,False,True,False,False,False,False,False,False,False,False,False,True,False,901,Ykköscup,Finland
-2023,2023-01-21,2023-03-11,False,True,False,False,False,False,False,False,False,False,False,True,False,901,Ykköscup,Finland
+2023,2023-01-21,2023-03-11,False,True,False,False,False,False,True,True,True,True,False,True,False,901,Ykköscup,Finland
 2024,2024-01-27,2024-04-06,False,True,False,False,False,False,False,False,False,False,False,True,False,901,Ykköscup,Finland
 2025,2025-02-01,2025-04-05,False,True,False,False,False,False,False,False,False,False,False,True,False,901,Ykköscup,Finland
 2026,2026-01-31,2026-02-28,True,True,True,False,False,False,False,False,False,False,False,True,False,901,Ykköscup,Finland
@@ -7735,7 +7736,8 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2024,2025-01-24,2025-04-17,False,True,False,False,False,False,True,True,True,True,False,True,False,1049,King's Cup,Bahrain
 2025,2026-01-11,2026-02-26,True,True,False,False,False,False,False,False,False,False,False,True,True,1049,King's Cup,Bahrain
 2023,2023-12-08,2023-12-08,False,True,True,False,False,False,False,False,False,False,False,True,False,1050,Super Cup,Malta
-2024,2024-12-13,2024-12-13,True,True,True,False,False,False,False,False,False,False,False,True,False,1050,Super Cup,Malta
+2024,2024-12-13,2024-12-13,False,True,True,False,False,False,False,False,False,False,False,True,False,1050,Super Cup,Malta
+2025,2026-02-10,2026-02-10,True,False,False,False,False,False,False,False,False,False,False,True,False,1050,Super Cup,Malta
 2023,2023-10-14,2023-10-29,False,True,True,False,False,False,True,True,True,True,False,True,False,1052,Kakkonen - Play-offs,Finland
 2024,2024-08-22,2024-10-20,False,True,True,False,False,False,True,True,True,True,False,True,False,1052,Kakkonen - Play-offs,Finland
 2025,2025-08-29,2025-10-19,True,True,True,False,False,False,True,True,True,True,False,True,False,1052,Kakkonen - Play-offs,Finland
@@ -7813,7 +7815,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2024,2024-03-02,2024-04-27,False,True,False,False,False,False,True,True,True,True,False,True,False,1082,Copa Rio U20,Brazil
 2025,2025-03-15,2025-05-31,True,True,False,False,False,False,True,True,True,True,False,True,False,1082,Copa Rio U20,Brazil
 2024,2024-04-11,2024-05-05,False,True,True,False,False,False,True,True,True,True,False,True,False,1085,CONMEBOL U20 Femenino,World
-2026,2026-02-04,2026-02-13,True,False,False,False,False,False,False,False,False,False,False,True,False,1085,CONMEBOL U20 Femenino,World
+2026,2026-02-04,2026-02-13,True,True,True,False,False,False,False,False,False,False,False,True,False,1085,CONMEBOL U20 Femenino,World
 2024,2024-04-12,2024-11-15,False,True,False,False,False,False,True,True,True,True,False,True,False,1086,Paulista - U20,Brazil
 2025,2025-04-25,2025-11-16,True,True,False,False,False,True,True,True,True,True,False,True,False,1086,Paulista - U20,Brazil
 2024,2024-04-13,2024-10-26,False,True,True,False,False,True,True,True,True,True,False,True,False,1087,Ykkösliiga,Finland
@@ -7968,7 +7970,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2024,2024-10-12,2025-05-01,True,True,False,False,False,False,True,True,True,True,False,True,False,1160,Sapling Cup,Hong-Kong
 2024,2024-10-19,2024-10-27,True,True,False,False,False,False,False,False,False,False,False,True,False,1161,AFC U17 Asian Cup - Qualification,World
 2024,2024-10-22,2025-04-15,False,True,True,False,False,False,True,True,True,True,False,True,False,1162,AGCFF Gulf Champions League,World
-2025,2025-09-30,2026-02-18,True,True,True,False,False,False,True,True,True,True,False,True,False,1162,AGCFF Gulf Champions League,World
+2025,2025-09-30,2026-02-18,True,True,True,False,False,False,True,True,True,True,False,True,True,1162,AGCFF Gulf Champions League,World
 2024,2024-10-25,2025-05-09,True,True,False,False,False,False,True,True,True,True,False,True,False,1163,African Nations Championship - Qualification,World
 2024,2024-11-09,2024-11-23,False,True,True,False,False,False,True,True,True,True,False,True,False,1164,CAF Women's Champions League,World
 2025,2025-11-08,2025-11-21,True,True,True,False,False,False,False,False,False,False,False,True,False,1164,CAF Women's Champions League,World
@@ -7984,7 +7986,7 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2025,2025-08-17,2026-02-28,True,False,False,False,False,True,False,False,False,False,False,True,False,1218,Pro League U23,United-Arab-Emirates
 2025,2025-02-21,2025-05-24,True,True,False,False,False,False,True,True,True,True,False,True,False,1180,Copa LDF,Dominican-Republic
 2025,2025-02-12,2025-03-16,False,True,False,False,False,False,True,True,True,True,False,True,False,1172,Torneo Amistoso de Verano,Bolivia
-2026,2026-01-30,2026-02-08,True,True,False,False,False,False,False,False,False,False,False,True,True,1172,Torneo Amistoso de Verano,Bolivia
+2026,2026-01-30,2026-02-20,True,True,False,False,False,False,False,False,False,False,False,True,True,1172,Torneo Amistoso de Verano,Bolivia
 2025,2025-03-01,2025-03-01,True,True,False,False,False,False,False,False,False,False,False,True,False,1175,Women's President's Cup,Ireland
 2025,2025-03-01,2025-03-01,True,True,True,False,False,False,True,True,True,True,False,True,False,1176,Super Cup,Latvia
 2025,2025-03-01,2025-03-01,True,True,True,False,False,False,False,False,False,False,False,True,False,1177,Super Cup,Faroe-Islands
@@ -8024,4 +8026,4 @@ year,start,end,current,coverage.fixtures.events,coverage.fixtures.lineups,covera
 2026,2026-01-17,2026-04-18,True,True,True,False,False,True,True,True,True,True,False,True,True,1214,Ofc Pro League,World
 2026,2026-01-23,2026-03-07,True,True,False,False,False,False,True,True,True,True,False,True,True,1215,Obos Supercup,Norway
 2026,2026-01-11,2026-01-27,True,True,True,False,False,False,False,False,False,False,False,True,False,1216,Serie Rio De La Plata,World
-2026,2025-10-08,2026-02-01,True,True,True,False,False,False,False,False,False,False,False,True,True,1217,Fifa Women Champions Cup,World
+2026,2025-10-08,2026-02-01,True,True,True,False,False,False,False,False,False,False,False,True,False,1217,Fifa Women Champions Cup,World

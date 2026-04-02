@@ -23,7 +23,7 @@ model = load_model()
 @st.cache_data(ttl=60)
 def get_live_matches():
 
-    API_KEY = os.getenv("FOOTBALL_API_KEY")
+    API_KEY = st.secrets.get("FOOTBALL_API_KEY")
 
     if not API_KEY:
         return None
@@ -104,10 +104,12 @@ if st.button("🔮 Predict"):
 st.divider()
 st.subheader("📺 Live Matches")
 
+df_show = pd.DataFrame()
+
 matches = get_live_matches()
 
 if matches is None:
-    st.error("❌ API KEY not configured")
+    st.warning("⚠️ API not configured")
 
 elif len(matches) == 0:
     st.info("No live matches right now")
@@ -123,7 +125,7 @@ else:
     gh = first["goals"]["home"] or 0
     ga = first["goals"]["away"] or 0
 
-    minute = first["fixture"]["status"]["elapsed"]
+    minute = first["fixture"]["status"]["elapsed"] or 0
 
     st.markdown("### ⭐ Featured Match")
 
@@ -144,7 +146,7 @@ else:
         gh = m["goals"]["home"] or 0
         ga = m["goals"]["away"] or 0
 
-        minute = m["fixture"]["status"]["elapsed"]
+        minute = m["fixture"]["status"]["elapsed"] or 0
 
         total = gh + ga
 
@@ -187,6 +189,5 @@ else:
             "Over 2.5 Probability"
         ]
     )
-
-
-    st.dataframe(df_show, use_container_width=True)
+    
+st.dataframe(df_show, use_container_width=True)
